@@ -1,0 +1,87 @@
+.affection {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: pink;
+}
+.italic {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: maroon;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.border-top {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 200px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+.homebg {
+    background-image: url('Images/Hearts\ Background.jpeg');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Change the font, size, and color of a word or phrase */
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+/* Make a word or phrase bolded and underlined when the cursor hovers over the word or phrase */
+a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+/* Make a link maroon when already visited */
+a:visited {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.commonsection {
+    background-color: lavender;
+    border: 2px black;
+    
+}
+.headersection {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    border-bottom: solid 1px #555555;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+.left {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    border-right: solid 1px #555555;
+}
+.right {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+}
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 2px;
+    padding-right: 5px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    position: fixed;
+}
+.justify {
+    text-align: justify;
+}
